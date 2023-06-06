@@ -1,0 +1,106 @@
+.stories{
+    display: flex;
+    flex-direction: row;
+    margin-left: 300px;
+    margin-top: 40px;
+    width: 50vw;
+    justify-content: space-evenly;
+    
+}
+
+
+ .story img{
+    height:50px;
+    width: 50px;
+    border-radius: 50%;
+   
+    margin-left: 2px;
+    margin-top: 2px;
+   
+}
+.story {
+    height:55px;
+    width: 55px;
+    border-radius: 50%;
+    background-image: linear-gradient(
+        230deg, rgb(160, 19, 162) 2%,
+        rgba(255, 0, 0, 0.655) 80% ,rgba(255, 255, 0, 0.811)  100%) ;
+
+    
+}
+
+
+
+
+
+.cards{
+    margin-left: 450px;
+    margin-top: 40px;
+    border: 2px black solid;
+    display: flex;
+    flex-direction: column;
+    width: 30% ;
+     /* margin: auto; */
+   padding: 0.5rem;
+
+}
+.profile-head{
+    display: flex;
+    flex-direction: row;
+   gap: 0.5rem;
+   
+}
+.post-image{
+    height: 60vh;
+}
+.dots{
+    display: flex;
+    height: 1rem;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.5rem;
+    align-items: center;
+}
+.dot1{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: rgb(82, 81, 81);
+}
+.profile-head img{
+      height: 3rem;
+      width: 3rem;
+      border-radius: 50%;
+}
+.profile-head .username, .post-time{
+    display: flex;
+    align-items: center;
+}
+.post-image img{ 
+    width: 30vw;
+    height: 60vh;
+    object-fit: cover;
+
+}
+.activity{
+    display: flex;
+    flex-direction: row;
+
+    gap: 1rem;
+    justify-content: space-between;
+
+}
+.activity .left{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+
+}
+
+.username{
+    font-weight: 600;
+    padding-right: 0.5rem;
+}
+.i{
+     font-size: 1.5rem;
+}
